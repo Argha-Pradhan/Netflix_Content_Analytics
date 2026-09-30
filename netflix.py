@@ -1,5 +1,5 @@
 import pandas as pd
-df=pd.read_csv("E:\\DATA\\kaggle_datas\\netflix_movies_detailed_up_to_2025.csv")
+df=pd.read_csv("E:\\Project_1\\Netflix_Content_Analytics\\netflix_movies_detailed_up_to_2025.csv")
 # print(df.shape)
 print("Columns:",df.columns.to_list())
 # print(df.info())
