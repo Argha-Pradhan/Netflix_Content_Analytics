@@ -5,7 +5,7 @@ df=pd.read_csv("E:\\Project_1\\Netflix_Content_Analytics\\netflix_movies_detaile
 # print(df.info())
 # print("\nMissing values:")
 # print(df.isnull().sum())
-# print("Duplicated rows:",df.duplicated().sum())
+
 df.columns= (df.columns.str.strip().str.lower().str.replace(' ','_'))
 
 df = df.drop_duplicates()
