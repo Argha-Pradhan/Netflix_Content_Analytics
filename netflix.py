@@ -1,7 +1,7 @@
 import pandas as pd
 df=pd.read_csv("E:\\Project_1\\Netflix_Content_Analytics\\netflix_movies_detailed_up_to_2025.csv")
 # print(df.shape)
-print("Columns:",df.columns.to_list())
+# print("Columns:",df.columns.to_list())
 # print(df.info())
 # print("\nMissing values:")
 # print(df.isnull().sum())
@@ -41,9 +41,3 @@ numeric_columns = [
 
 for col in numeric_columns:
     df[col] = pd.to_numeric(df[col],errors="coerce")
-print(df[["release_year",
-    "popularity",
-    "vote_count",
-    "vote_average",
-    "budget",
-    "revenue"]])
