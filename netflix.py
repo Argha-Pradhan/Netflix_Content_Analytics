@@ -3,7 +3,7 @@ df=pd.read_csv("E:\\Project_1\\Netflix_Content_Analytics\\netflix_movies_detaile
 # print(df.shape)
 # print("Columns:",df.columns.to_list())
 # print(df.info())
-# print("\nMissing values:")
+
 
 
 df.columns= (df.columns.str.strip().str.lower().str.replace(' ','_'))
