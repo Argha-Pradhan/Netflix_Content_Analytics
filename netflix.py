@@ -132,4 +132,3 @@ text_fill_columns = [
 
 for col in text_fill_columns:
     df[col] = df[col].fillna("Unknown")
-
