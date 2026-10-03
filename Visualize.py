@@ -2,18 +2,13 @@ import mysql.connector
 import pandas as pd
 import matplotlib.pyplot as plt
 
-
-# MySQL connection
-
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="arghaSQL",
-    database="projects"
+    password="The_password",
+    database="DB_NAME"
 )
 
-
-# Color palette
 
 teal = "#2A9D8F"
 blue = "#457B9D"
@@ -74,7 +69,7 @@ plt.title("Language Distribution of Movies")
 plt.tight_layout()
 
 plt.savefig(
-    "E:\\Project_1\\Netflix_Content_Analytics\\visuals\\Language_Distribution_of_Movies.png",
+    "Netflix_Content_Analytics\\visuals\\Language_Distribution_of_Movies.png",
     dpi=300,
     bbox_inches="tight"
 )
@@ -119,7 +114,7 @@ plt.title("Top 8 Genres by Movie Count")
 plt.tight_layout()
 
 plt.savefig(
-    "E:\\Project_1\\Netflix_Content_Analytics\\visuals\\Top_8_Genres_by_Movie.png",
+    "Netflix_Content_Analytics\\visuals\\Top_8_Genres_by_Movie.png",
     dpi=300,
     bbox_inches="tight"
 )
@@ -166,7 +161,7 @@ plt.title("Average Rating by Genre")
 plt.tight_layout()
 
 plt.savefig(
-    "E:\\Project_1\\Netflix_Content_Analytics\\visuals\\Average_Rating_by_Genre.png",
+    "Netflix_Content_Analytics\\visuals\\Average_Rating_by_Genre.png",
     dpi=300,
     bbox_inches="tight"
 )
@@ -217,7 +212,7 @@ plt.grid(axis="x", alpha=0.2)
 plt.tight_layout()
 
 plt.savefig(
-    "E:\\Project_1\\Netflix_Content_Analytics\\visuals\\Top_15_Genres_by_Average_Popularity.png",
+    "Netflix_Content_Analytics\\visuals\\Top_15_Genres_by_Average_Popularity.png",
     dpi=300,
     bbox_inches="tight"
 )
@@ -256,7 +251,7 @@ plt.grid(axis="x", alpha=0.2)
 plt.tight_layout()
 
 plt.savefig(
-    "E:\\Project_1\\Netflix_Content_Analytics\\visuals\\Top_15_Movies_by_Budget.png",
+    "Netflix_Content_Analytics\\visuals\\Top_15_Movies_by_Budget.png",
     dpi=300,
     bbox_inches="tight"
 )
@@ -295,7 +290,7 @@ plt.grid(axis="x", alpha=0.2)
 plt.tight_layout()
 
 plt.savefig(
-    "E:\\Project_1\\Netflix_Content_Analytics\\visuals\\Top_15_Movies_by_Revenue.png",
+    "Netflix_Content_Analytics\\visuals\\Top_15_Movies_by_Revenue.png",
     dpi=300,
     bbox_inches="tight"
 )
@@ -339,7 +334,7 @@ plt.grid(axis="y", alpha=0.2)
 plt.tight_layout()
 
 plt.savefig(
-    "E:\\Project_1\\Netflix_Content_Analytics\\visuals\\Top_15_Movies_by_Return_Relative_to_Budget.png",
+    "Netflix_Content_Analytics\\visuals\\Top_15_Movies_by_Return_Relative_to_Budget.png",
     dpi=300,
     bbox_inches="tight"
 )
@@ -384,7 +379,7 @@ plt.grid(axis="x", alpha=0.2)
 plt.tight_layout()
 
 plt.savefig(
-    "E:\\Project_1\\Netflix_Content_Analytics\\visuals\\Highly_Rated_Movies.png",
+    "Netflix_Content_Analytics\\visuals\\Highly_Rated_Movies.png",
     dpi=300,
     bbox_inches="tight"
 )
