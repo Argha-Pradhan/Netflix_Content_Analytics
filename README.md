@@ -91,10 +91,11 @@ All generated charts are available in the [`visuals/`](visuals/) directory.
 ```text
 Netflix_Content_Analytics/
 │
-├── data_cleaning.py
-├── analysis.sql
-├── visualization.py
-├── netflix_cleaned.csv
+├── netflix.py(Data_Cleaning and Preprocessing)
+├── sql_analysis.sql
+├── netflix_movies_detailed_up_to_2025.csv (Raw Dataset)
+├── visualize.py
+├── netflix_cleaned.csv(Clean Dataset)
 ├── README.md
 └── visuals/
     ├── Average_Rating_by_Genre.png
