@@ -4,11 +4,13 @@ A data analytics project exploring a movie dataset using **Python, SQL, and Matp
 
 The project focuses on cleaning the data, analyzing patterns through SQL, and presenting useful findings through visualizations.
 
-## Project Overview
+##Dashboard Preview
 
+The dashboard brings together eight visualizations covering content distribution, genre-level insights, audience response, and movie financial performance
+
+## Project Overview
+This project demonstrates an end-to-end data analytics workflow, from data cleaning and preprocessing to SQL-based analysis and data visualization. The goal is to extract meaningful insights from a movie dataset and present the findings through clear, interpretable visualizations.
 * **Dataset:** Movie metadata up to 2025
-* **Initial records:** 16,035
-* **Final records:** 16,000
 * **Content type:** Movies
 * **Tools used:**
 
